@@ -2,10 +2,10 @@
 
 ## Installation
 ### With script
-    
-    ```bash
+
     curl -sL https://raw.githubusercontent.com/script47ph/server-config/master/install.sh | bash
-    ```
+
+
 ### Manual
 1. Update the system
     
