@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Update and upgrade repository..."
+echo "Update repository..."
 sudo apt-get update > /dev/null
 echo "Install dependencies..."
 sudo apt-get install -y git zsh wget unzip vim > /dev/null
