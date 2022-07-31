@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Update and upgrade repository..."
-sudo apt-get update > /dev/null && sudo apt-get upgrade -y > /dev/null
+sudo apt-get update > /dev/null
 echo "Install dependencies..."
 sudo apt-get install -y git zsh wget unzip vim > /dev/null
 curl -sL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | bash > /dev/null
