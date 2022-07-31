@@ -36,7 +36,7 @@
     ```
 5.  Set the default theme and zsh configuration
     ```bash
-    echo -e 'eval "$(oh-my-posh init zsh --config ~/.poshthemes/material.omp.json)" \nalias="clear"' >> ~/.zshrc && \
+    echo -e 'eval "$(oh-my-posh init zsh --config ~/.poshthemes/material.omp.json)" \nalias cl="clear"' >> ~/.zshrc && \
     chsh -s /bin/zsh
     ```
 6.  Additional settings
